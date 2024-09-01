@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center; */
+
+}
+
+h2 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    width: 100vw;
+    height: 500px;
+
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+#start {
+    width: 300px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+#outer {
+    width: 300px;
+    height: 370px;
+
+    background-color: rgb(151, 138, 238);
+    border-radius: 20px;
+
+}
+
+#rule {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#inner {
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    background-color: rgb(193, 144, 238);
+    border-radius: 20px;
+}
+
+#num {
+    width: 60%;
+
+    height: 100%;
+    background-color: rgb(76, 180, 231);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 20px;
+}
+
+
+P {
+    margin: 0;
+    padding: 0;
+}
+
+#score {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#value {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#number {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button {
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(151, 138, 238);
+    box-shadow: 0 0 8px black;
+    color: rgb(6, 6, 6);
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    column-gap: 8px;
+    align-items: center;
+
+}
+
+
+#change {
+    width: 100px;
+    border-radius: 20px;
+}
+
+#btn-start {
+    display: flex;
+    justify-content: space-around;
+}
+
+#start-btn,
+#stop-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#time-box {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-left: 20px;
+
+}
+
+#rule p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px;
+    color: green;
+}
+
+#pass {
+    width: fit-content;
+    padding: 5px;
+    border-radius: 15px;
+    height: 40px;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+@media (max-width:970px) {
+
+    #container {
+        flex-direction: column;
+
+        height: 830px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #outer {
+        width: 310px;
+        height: 400px;
+    }
+
+    #num {
+        font-size: 18px;
+        border-radius: 10px;
+    }
+
+    #inner {
+        border-radius: 10px;
+    }
+
+    #number {
+        font-size: 25px;
+    }
+
+
+}
